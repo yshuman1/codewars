@@ -15,17 +15,10 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
 func DNAtoRNA(dna string) string {
 	// your code here
 	return strings.Replace(dna, "T", "U", -1)
-}
-
-func main() {
-	dna := "GCAT"
-	// expected output "GCAU"
-	fmt.Println(DNAtoRNA(dna))
 }

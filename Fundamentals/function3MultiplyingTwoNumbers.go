@@ -3,12 +3,6 @@
 
 package main
 
-import "fmt"
-
 func Multiply(x, y int) int {
 	return x * y
-}
-
-func main(){
-fmt.Println("should be 30: ",Multiply(5,6))
 }

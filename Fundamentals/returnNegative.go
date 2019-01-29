@@ -6,8 +6,6 @@
 
 package main
 
-import "fmt"
-
 func MakeNegative(x int) int {
 	if x <= 0 {
 		return x
@@ -15,8 +13,4 @@ func MakeNegative(x int) int {
 		return -x
 	}
 
-}
-
-func main() {
-fmt.Println("should be negative 5", MakeNegative(5))
 }
